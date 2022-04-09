@@ -1,6 +1,5 @@
-import argparse
+import argparse, validators
 from asyncio.runners import run
-import validators
 from time import sleep
 from lib.threadPath import Scac
 from lib.fileFinder import ScacDirb
